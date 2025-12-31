@@ -1,6 +1,5 @@
 # 🌍 Language-Agnostic Text Classifier  
-**Train on English. Works on Hindi. No translation. No multilingual training.**
----
+> Train on English. Works on Hindi. No translation. No multilingual training.
 
 ## Core Idea (in simple words)
 
@@ -15,8 +14,6 @@ we force it to learn:
 If a Hindi sentence expresses the same *idea* as an English one,  
 their internal representations should be **close**.
 
----
-
 ## Key Innovation Used
 
 ### Language-Agnostic Semantic Learning  
@@ -28,8 +25,6 @@ It learns:
 - meaning patterns
 
 rather than memorizing English vocabulary.
-
----
 
 ### Contrastive Learning (Most Important Part)
 
@@ -45,8 +40,6 @@ This **forces abstraction**.
 As a result:
 - Hindi sentences with similar meaning naturally fall into the same regions.
 
----
-
 ### Sentence-Level Classification (Not Token-Level)
 
 We classify **entire sentences**, not individual words.
@@ -57,16 +50,12 @@ Why?
 
 This makes cross-lingual generalization practical.
 
----
-
 ### Multiscript Tokenization (Engineering Necessity)
 The model **can read Hindi characters**, but:
 - it is never trained on Hindi data
 - it never sees Hindi labels
 
 Hindi capability is **emergent**, not supervised.
-
----
 
 ## What the System Actually Does
 
@@ -83,7 +72,6 @@ Hindi capability is **emergent**, not supervised.
 - Outputs a classification label
 
 No translation. No retraining.
----
 
 ##  What makes it interesting
 
@@ -92,7 +80,6 @@ No translation. No retraining.
 - Adding a new language later requires **no retraining**
 - Same system scales to other languages
 
----
 
 ## Real-World Relevance
 
@@ -103,13 +90,9 @@ This approach is useful when:
 
 It mirrors how **modern multilingual systems are actually built**.
 
----
-
 ## One-Line Summary
 
 > **A language-agnostic text classifier trained only on English that generalizes to Hindi by learning meaning instead of language.**
-
----
 
 This project demonstrates that **multilingual intelligence is not about data quantity — it’s about abstraction**.
 
