@@ -1,4 +1,4 @@
-# 🌍 Language-Agnostic Text Classifier  
+# Language-Agnostic Text Classifier  
 > Train on English. Works on Hindi. No translation. No multilingual training.
 
 ## Core Idea (in simple words)
