@@ -65,6 +65,6 @@ No translation. No retraining.
 > **A language-agnostic text classifier trained only on English that generalizes to Hindi by learning meaning instead of language.**
 
 ## Usage
-For using model visit: [🤗Hugging Face](https://huggingface.co/wizardoftrap/language_agnostic_classifier)
+For using model visit: *[🤗Hugging Face](https://huggingface.co/wizardoftrap/language_agnostic_classifier)*
 
 *- Shiv Prakash Verma*
